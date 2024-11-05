@@ -1,0 +1,1 @@
+This is a simple Vanilla JS web app I like to use for testing JavaScript SDKs to understand or showcase their behavior, outputs, and more. I borrowed this beautiful example UI from a talented developer here: https://github.com/ivanlourencogomes and made a few adjustments to the files to better suit my needs.

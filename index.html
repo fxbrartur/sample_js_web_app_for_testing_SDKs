@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javascript Flash Course</title>
+    <title>Javascript Test/Demo Page</title>
     <link rel="stylesheet" href="./main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,7 +33,7 @@
               stroke-linejoin="round"
             />
           </svg>
-          <a href="/">Javascript Flash Course</a>
+          <a href="/">Javascript Test/Demo Page</a>
         </div>
 
         <button id="open-nav-menu">
@@ -132,14 +132,9 @@
       <section id="home" class="container greeting-section">
         <div class="left-side">
           <h1 id="greeting">Good Morning!</h1>
-          <p id="weather">The weather is cloudy in London and it's 22°C outside. </p>
+          <p id="weather">Retrieving weather information... </p>
           <div class="weather-group">
-            <input
-              type="radio"
-              checked="true"
-              id="celsius"
-              name="temperature"
-            />
+            <input type="radio" checked="true" id="celsius" name="temperature"/>
             <label for="celsius">Celsius</label>
             <input type="radio" id="fahr" name="temperature" />
             <label for="fahr">Fahr</label>
@@ -170,7 +165,7 @@
       <section id="gallery" class="gallery-section">
         <img src="/assets/gallery/image1.jpg" alt="image 1" />
 
-        <div class="thumbnails">
+        <div class="thumbnails" id="thumbnails">
           <img src="./assets/gallery/image1.jpg" alt="Thumbnail Image 1" data-array-index="0" data-selected="true">
           <img src="./assets/gallery/image2.jpg" alt="Thumbnail Image 2" data-array-index="1" data-selected="false">
           <img src="./assets/gallery/image3.jpg" alt="Thumbnail Image 3" data-array-index="2" data-selected="false">
@@ -270,6 +265,6 @@
     </main>
 
     <footer></footer>
-
+  <script src="./main.js"></script>
   </body>
 </html>
